@@ -2,6 +2,9 @@
 
 A new Flutter project.
 
+Our team has been working hard, and soon we will share with you our newest app: SWMS apk update.
+With this app, you'll be able to manage your surrounding wastes like never before. 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
