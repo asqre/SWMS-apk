@@ -7,10 +7,10 @@ io.flutter.plugins.googlemaps.google_maps_flutter_android-jetified-play-services
 io.flutter.plugins.googlemaps.google_maps_flutter_android-jetified-window-java-1.0.0-beta04-6 /home/amit/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.googlemaps.google_maps_flutter_android-main-7 /home/amit/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.4.12/android/src/main/res
 io.flutter.plugins.googlemaps.google_maps_flutter_android-release-8 /home/amit/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.4.12/android/src/release/res
-io.flutter.plugins.googlemaps.google_maps_flutter_android-packaged_res-9 /home/amit/StudioProjects/swms/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
-io.flutter.plugins.googlemaps.google_maps_flutter_android-pngs-10 /home/amit/StudioProjects/swms/build/google_maps_flutter_android/generated/res/pngs/release
-io.flutter.plugins.googlemaps.google_maps_flutter_android-resValues-11 /home/amit/StudioProjects/swms/build/google_maps_flutter_android/generated/res/resValues/release
-io.flutter.plugins.googlemaps.google_maps_flutter_android-rs-12 /home/amit/StudioProjects/swms/build/google_maps_flutter_android/generated/res/rs/release
-io.flutter.plugins.googlemaps.google_maps_flutter_android-mergeReleaseResources-13 /home/amit/StudioProjects/swms/build/google_maps_flutter_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.googlemaps.google_maps_flutter_android-mergeReleaseResources-14 /home/amit/StudioProjects/swms/build/google_maps_flutter_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.googlemaps.google_maps_flutter_android-merged_res-15 /home/amit/StudioProjects/swms/build/google_maps_flutter_android/intermediates/merged_res/release
+io.flutter.plugins.googlemaps.google_maps_flutter_android-packaged_res-9 /home/amit/StudioProjects/SWMS-apk/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
+io.flutter.plugins.googlemaps.google_maps_flutter_android-pngs-10 /home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/generated/res/pngs/release
+io.flutter.plugins.googlemaps.google_maps_flutter_android-resValues-11 /home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/generated/res/resValues/release
+io.flutter.plugins.googlemaps.google_maps_flutter_android-rs-12 /home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/generated/res/rs/release
+io.flutter.plugins.googlemaps.google_maps_flutter_android-mergeReleaseResources-13 /home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.googlemaps.google_maps_flutter_android-mergeReleaseResources-14 /home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.googlemaps.google_maps_flutter_android-merged_res-15 /home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/intermediates/merged_res/release

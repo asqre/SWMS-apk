@@ -3747,7 +3747,7 @@
             "outputFile": "com.example.swms.app-merged_res-18:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/home/amit/StudioProjects/swms/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -3844,22 +3844,20 @@
             "outputFile": "com.example.swms.app-merged_res-18:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/amit/StudioProjects/swms/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/amit/StudioProjects/SWMS-apk/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,708",
+                        "endColumns": "143,81,103,108,119,93,70",
+                        "endOffsets": "194,276,380,489,609,703,774"
                     },
                     "to": {
-                        "startLines": "137,141",
-                        "startColumns": "4,4",
-                        "startOffsets": "9983,10164",
-                        "endLines": "140,143",
-                        "endColumns": "12,12",
-                        "endOffsets": "10159,10328"
+                        "startLines": "126,130,131,132,133,134,135",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8973,9332,9414,9518,9627,9747,9841",
+                        "endColumns": "143,81,103,108,119,93,70",
+                        "endOffsets": "9112,9409,9513,9622,9742,9836,9907"
                     }
                 },
                 {
@@ -3882,20 +3880,22 @@
                     }
                 },
                 {
-                    "source": "/home/amit/StudioProjects/swms/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,708",
-                        "endColumns": "143,81,103,108,119,93,70",
-                        "endOffsets": "194,276,380,489,609,703,774"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
                     },
                     "to": {
-                        "startLines": "126,130,131,132,133,134,135",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8973,9332,9414,9518,9627,9747,9841",
-                        "endColumns": "143,81,103,108,119,93,70",
-                        "endOffsets": "9112,9409,9513,9622,9742,9836,9907"
+                        "startLines": "137,141",
+                        "startColumns": "4,4",
+                        "startOffsets": "9983,10164",
+                        "endLines": "140,143",
+                        "endColumns": "12,12",
+                        "endOffsets": "10159,10328"
                     }
                 },
                 {

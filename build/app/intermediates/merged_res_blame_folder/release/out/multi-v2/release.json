@@ -3747,7 +3747,7 @@
             "outputFile": "com.example.swms.app-merged_res-18:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/home/amit/StudioProjects/swms/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -3844,25 +3844,6 @@
             "outputFile": "com.example.swms.app-merged_res-18:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/amit/StudioProjects/swms/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "137,141",
-                        "startColumns": "4,4",
-                        "startOffsets": "9983,10164",
-                        "endLines": "140,143",
-                        "endColumns": "12,12",
-                        "endOffsets": "10159,10328"
-                    }
-                },
-                {
                     "source": "/home/amit/.gradle/caches/transforms-3/1141b72fb8be4e566e7814849b1aa3a2/transformed/core-1.6.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,104,111,159,191,228",
@@ -3882,7 +3863,7 @@
                     }
                 },
                 {
-                    "source": "/home/amit/StudioProjects/swms/build/app/generated/res/google-services/release/values/values.xml",
+                    "source": "/home/amit/StudioProjects/SWMS-apk/build/app/generated/res/google-services/release/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -3896,6 +3877,25 @@
                         "startOffsets": "8973,9332,9414,9518,9627,9747,9841",
                         "endColumns": "143,81,103,108,119,93,70",
                         "endOffsets": "9112,9409,9513,9622,9742,9836,9907"
+                    }
+                },
+                {
+                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "137,141",
+                        "startColumns": "4,4",
+                        "startOffsets": "9983,10164",
+                        "endLines": "140,143",
+                        "endColumns": "12,12",
+                        "endOffsets": "10159,10328"
                     }
                 },
                 {

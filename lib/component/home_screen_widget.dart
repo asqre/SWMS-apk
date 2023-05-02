@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:swms/screen/sign_up_screen.dart';
-import '../screen/home_screen.dart';
+import 'package:swms/screen/login_signup/sign_up_screen.dart';
+import '../screen/navigation_bar/home_screen.dart';
 
 class HomeScreenWidget extends StatelessWidget {
   const HomeScreenWidget({Key? key}) : super(key: key);

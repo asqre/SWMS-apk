@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:swms/screen/add_resouce_screen.dart';
-import 'package:swms/screen/forgot_password_screen.dart';
+import 'package:swms/screen/login_signup/forgot_password_screen.dart';
 import 'package:swms/component/home_screen_widget.dart';
-import 'package:swms/screen/generate_routes_screen.dart';
-import 'package:swms/screen/help_page.dart';
-import 'package:swms/screen/on_boarding_page.dart';
-import 'package:swms/screen/realTimeMonitoringScreen.dart';
-import 'package:swms/screen/register_screen.dart';
-import 'package:swms/screen/status_of_bins_screen.dart';
-import 'package:swms/screen/user_page_screen.dart';
-import 'package:swms/screen/view_data_screen.dart';
+import 'package:swms/screen/navigation_bar/add_resource/add_resouce_screen.dart';
+import 'package:swms/screen/navigation_bar/generate_routes_screen.dart';
+import 'package:swms/screen/navigation_bar/help_page.dart';
+import 'package:swms/screen/login_signup/on_boarding_page.dart';
+import 'package:swms/screen/navigation_bar/real_time_data/utils/realTimeMonitoringScreen.dart';
+import 'package:swms/screen/login_signup/register_screen.dart';
+import 'package:swms/screen/navigation_bar/status_of_bins_screen.dart';
+import 'package:swms/screen/navigation_bar/user_page_screen.dart';
+import 'package:swms/screen/navigation_bar/view_data_screen.dart';
 import 'package:swms/services/auth_services.dart';
-import 'package:swms/screen/sign_up_screen.dart';
-import 'screen/home_screen.dart';
-import 'screen/login_screen.dart';
+import 'package:swms/screen/login_signup/sign_up_screen.dart';
+import 'screen/navigation_bar/home_screen.dart';
+import 'screen/login_signup/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 void main() async {

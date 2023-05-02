@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/home/amit/StudioProjects/swms/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/amit/StudioProjects/swms/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/amit/StudioProjects/swms/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:shared_preferences_android::release"
-      jars="/home/amit/StudioProjects/swms/build/shared_preferences_android/.transforms/ea4c545a81d0cf314e03b8ee40a46fd7/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:shared_preferences_android::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/shared_preferences_android/.transforms/ed808560b31c5c018c0504a073842843/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/shared_preferences_android/.transforms/ea4c545a81d0cf314e03b8ee40a46fd7/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/shared_preferences_android/.transforms/ed808560b31c5c018c0504a073842843/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:firebase_auth::release"
-      jars="/home/amit/StudioProjects/swms/build/firebase_auth/.transforms/f51df980f27c38c21b30e6d0076e2839/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:firebase_auth::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/firebase_auth/.transforms/694e4994d664e8dd0e0490c90532318f/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.auth:firebase_auth:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/firebase_auth/.transforms/f51df980f27c38c21b30e6d0076e2839/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/firebase_auth/.transforms/694e4994d664e8dd0e0490c90532318f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:firebase_database::release"
-      jars="/home/amit/StudioProjects/swms/build/firebase_database/.transforms/3b835fff51651f656935c579e6d5abd1/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:firebase_database::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/firebase_database/.transforms/550662ac685ec5f0d3ff18fc184c2a2d/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.database:firebase_database:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/firebase_database/.transforms/3b835fff51651f656935c579e6d5abd1/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/firebase_database/.transforms/550662ac685ec5f0d3ff18fc184c2a2d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:firebase_storage::release"
-      jars="/home/amit/StudioProjects/swms/build/firebase_storage/.transforms/e8211435a4dfd2e2092666d13f751dc2/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:firebase_storage::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/firebase_storage/.transforms/94d6cca913ccb83af23fd67dc524f1d6/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.storage:firebase_storage:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/firebase_storage/.transforms/e8211435a4dfd2e2092666d13f751dc2/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/firebase_storage/.transforms/94d6cca913ccb83af23fd67dc524f1d6/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:cloud_firestore::release"
-      jars="/home/amit/StudioProjects/swms/build/cloud_firestore/.transforms/6a9fc7010125e15f0ce37487487c8852/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:cloud_firestore::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/cloud_firestore/.transforms/7d68030f556c342d9b2db7e3a5733509/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.cloudfirestore:cloud_firestore:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/cloud_firestore/.transforms/6a9fc7010125e15f0ce37487487c8852/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/cloud_firestore/.transforms/7d68030f556c342d9b2db7e3a5733509/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:firebase_core::release"
-      jars="/home/amit/StudioProjects/swms/build/firebase_core/.transforms/c347ff79c28737b04c34841ba1add2e8/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:firebase_core::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/firebase_core/.transforms/78e5cc9ad64a7868b539ad56f1bc8d7f/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/firebase_core/.transforms/c347ff79c28737b04c34841ba1add2e8/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/firebase_core/.transforms/78e5cc9ad64a7868b539ad56f1bc8d7f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/home/amit/StudioProjects/swms/build/flutter_plugin_android_lifecycle/.transforms/7d6255eeeec8df421437050c3adcd877/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/flutter_plugin_android_lifecycle/.transforms/70f473a431d46b7eafa2fc6dffca2333/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/flutter_plugin_android_lifecycle/.transforms/7d6255eeeec8df421437050c3adcd877/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/flutter_plugin_android_lifecycle/.transforms/70f473a431d46b7eafa2fc6dffca2333/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:url_launcher_android::release"
-      jars="/home/amit/StudioProjects/swms/build/url_launcher_android/.transforms/b601ea123459c33ec1bb579f3c08ec9e/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:url_launcher_android::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/url_launcher_android/.transforms/40fa94a781a7b3598d8649f79d5f4532/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/url_launcher_android/.transforms/b601ea123459c33ec1bb579f3c08ec9e/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/url_launcher_android/.transforms/40fa94a781a7b3598d8649f79d5f4532/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:location::release"
-      jars="/home/amit/StudioProjects/swms/build/location/.transforms/adf1bd8b2abfab50936b6a7be9d44c5b/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:location::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/location/.transforms/fed9c02b8d77ec773b02ee1725f203e8/transformed/out/jars/classes.jar"
       resolved="com.lyokone.location:location:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/location/.transforms/adf1bd8b2abfab50936b6a7be9d44c5b/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/location/.transforms/fed9c02b8d77ec773b02ee1725f203e8/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -121,10 +121,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:google_maps_flutter_android::release"
-      jars="/home/amit/StudioProjects/swms/build/google_maps_flutter_android/.transforms/63125903993342e62af54513451daaad/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:google_maps_flutter_android::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/.transforms/49c801742211884a559a0d7709b36b62/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.googlemaps:google_maps_flutter_android:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/google_maps_flutter_android/.transforms/63125903993342e62af54513451daaad/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/google_maps_flutter_android/.transforms/49c801742211884a559a0d7709b36b62/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -134,10 +134,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/amit/StudioProjects/swms/android@@:google_sign_in_android::release"
-      jars="/home/amit/StudioProjects/swms/build/google_sign_in_android/.transforms/cfde6449529f297101ca251b488d0df0/transformed/out/jars/classes.jar"
+      name="/home/amit/StudioProjects/SWMS-apk/android@@:google_sign_in_android::release"
+      jars="/home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/.transforms/47fb26e146f205624be4058dd76b7f33/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.googlesignin:google_sign_in_android:unspecified"
-      folder="/home/amit/StudioProjects/swms/build/google_sign_in_android/.transforms/cfde6449529f297101ca251b488d0df0/transformed/out"
+      folder="/home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/.transforms/47fb26e146f205624be4058dd76b7f33/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

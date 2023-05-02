@@ -4,9 +4,9 @@
     minSdkVersion="21"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/home/amit/StudioProjects/swms/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="/home/amit/StudioProjects/swms/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/home/amit/Downloads/flutter_linux_3.7.10-stable/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/home/amit/StudioProjects/swms/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/home/amit/Downloads/flutter_linux_3.7.10-stable/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -31,9 +31,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/home/amit/StudioProjects/swms/build/app/intermediates/javac/release/classes:/home/amit/StudioProjects/swms/build/app/tmp/kotlin-classes/release:/home/amit/StudioProjects/swms/build/app/kotlinToolingMetadata:/home/amit/StudioProjects/swms/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/javac/release/classes:/home/amit/StudioProjects/SWMS-apk/build/app/tmp/kotlin-classes/release:/home/amit/StudioProjects/SWMS-apk/build/app/kotlinToolingMetadata:/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.swms"
-      generatedSourceFolders="/home/amit/StudioProjects/swms/build/app/generated/source/buildConfig/release:/home/amit/StudioProjects/swms/build/app/generated/aidl_source_output_dir/release/out:/home/amit/StudioProjects/swms/build/app/generated/renderscript_source_output_dir/release/out:/home/amit/StudioProjects/swms/build/app/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/home/amit/StudioProjects/swms/build/app/generated/res/google-services/release:/home/amit/StudioProjects/swms/build/app/generated/res/rs/release:/home/amit/StudioProjects/swms/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/home/amit/StudioProjects/SWMS-apk/build/app/generated/source/buildConfig/release:/home/amit/StudioProjects/SWMS-apk/build/app/generated/aidl_source_output_dir/release/out:/home/amit/StudioProjects/SWMS-apk/build/app/generated/renderscript_source_output_dir/release/out:/home/amit/StudioProjects/SWMS-apk/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/amit/StudioProjects/SWMS-apk/build/app/generated/res/google-services/release:/home/amit/StudioProjects/SWMS-apk/build/app/generated/res/rs/release:/home/amit/StudioProjects/SWMS-apk/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

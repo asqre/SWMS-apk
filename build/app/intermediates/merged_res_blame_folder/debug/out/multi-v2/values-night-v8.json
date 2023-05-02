@@ -4,7 +4,7 @@
             "outputFile": "com.example.swms.app-mergeDebugResources-16:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/amit/StudioProjects/swms/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

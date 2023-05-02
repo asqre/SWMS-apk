@@ -1,8 +1,8 @@
 import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:swms/component/form_widget.dart';
 import 'package:swms/utils/dialog.dart';
-import 'package:swms/utils/splash_timer_widget.dart';
 
 class InsertData extends StatelessWidget {
   InsertData({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class InsertData extends StatelessWidget {
   late String capacityValue;
   late String heightValue;
   late String locationValue;
-  final dataBaseRef = FirebaseDatabase.instance.ref('Bins');
+  final dataBaseRef = FirebaseDatabase.instance.ref('Bin');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,7 +43,7 @@ class InsertData extends StatelessWidget {
                       },
                       labelText: 'Dustbin Identity',
                       hintText: 'Enter Id',
-                      prefixIcon: Icon(Icons.biotech),
+                      prefixIcon: Icon(CupertinoIcons.trash),
                       keyboardType: TextInputType.name),
                   const SizedBox(
                     height: 30,
@@ -76,7 +76,7 @@ class InsertData extends StatelessWidget {
                       },
                       labelText: 'Location',
                       hintText: 'Enter Location',
-                      prefixIcon: Icon(Icons.near_me),
+                      prefixIcon: Icon(CupertinoIcons.location),
                       keyboardType: TextInputType.name),
                   const SizedBox(
                     height: 30,

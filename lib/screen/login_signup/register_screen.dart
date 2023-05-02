@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:swms/bloc/sign_up_services.dart';
-import '../common_functions/string_validator.dart';
-import '../component/form_widget.dart';
+import '../../common_functions/string_validator.dart';
+import '../../component/form_widget.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({Key? key}) : super(key: key);

@@ -121,7 +121,7 @@ class _StatusBinsScreenState extends State<StatusBinsScreen> {
           'Bins Status',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.red,
+        // backgroundColor: Colors.red,
       ),
       body: SafeArea(
         child: GoogleMap(

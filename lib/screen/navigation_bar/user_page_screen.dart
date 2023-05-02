@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:swms/utils/string_constant.dart';
-import '../component/navigator_drawer_widget.dart';
+import '../../component/navigator_drawer_widget.dart';
 
 class UserPageScreen extends StatelessWidget {
   const UserPageScreen({Key? key}) : super(key: key);

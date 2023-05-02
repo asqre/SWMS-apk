@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:swms/component/form_widget.dart';
 import 'package:swms/component/square_tile.dart';
 import 'package:swms/services/auth_services.dart';
-import '../common_functions/string_validator.dart';
+import '../../common_functions/string_validator.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

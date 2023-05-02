@@ -1,4 +1,4 @@
-#Thu Apr 27 05:16:24 IST 2023
-base.0=/home/amit/StudioProjects/swms/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Mon May 01 14:54:53 IST 2023
+base.0=/home/amit/StudioProjects/SWMS-apk/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

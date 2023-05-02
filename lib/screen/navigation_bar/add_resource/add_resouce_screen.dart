@@ -13,7 +13,7 @@ class AddResourceScreen extends StatelessWidget {
       drawer: NavigatorDrawer(),
       appBar: AppBar(
         title: const Text('Resources'),
-        backgroundColor: Colors.green,
+        // backgroundColor: Colors.green,
       ),
       body: Center(
         child: Column(
@@ -30,7 +30,7 @@ class AddResourceScreen extends StatelessWidget {
               height: 30,
             ),
             const Text(
-              'Firebase Realtime Database Series in Flutter 2022',
+              'Firebase Realtime Database',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
               textAlign: TextAlign.center,
             ),
@@ -53,17 +53,6 @@ class AddResourceScreen extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            MaterialButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => FetchData()));
-              },
-              child: const Text('Fetch Data'),
-              color: Colors.blue,
-              textColor: Colors.white,
-              minWidth: 300,
-              height: 40,
-            )
           ],
         ),
       ),

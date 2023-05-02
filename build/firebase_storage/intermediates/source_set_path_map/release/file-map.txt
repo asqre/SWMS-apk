@@ -7,10 +7,10 @@ io.flutter.plugins.firebase.storage.firebase_storage-jetified-play-services-base
 io.flutter.plugins.firebase.storage.firebase_storage-jetified-window-java-1.0.0-beta04-6 /home/amit/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.firebase.storage.firebase_storage-main-7 /home/amit/.pub-cache/hosted/pub.dev/firebase_storage-11.1.1/android/src/main/res
 io.flutter.plugins.firebase.storage.firebase_storage-release-8 /home/amit/.pub-cache/hosted/pub.dev/firebase_storage-11.1.1/android/src/release/res
-io.flutter.plugins.firebase.storage.firebase_storage-packaged_res-9 /home/amit/StudioProjects/swms/build/firebase_core/intermediates/packaged_res/release
-io.flutter.plugins.firebase.storage.firebase_storage-pngs-10 /home/amit/StudioProjects/swms/build/firebase_storage/generated/res/pngs/release
-io.flutter.plugins.firebase.storage.firebase_storage-resValues-11 /home/amit/StudioProjects/swms/build/firebase_storage/generated/res/resValues/release
-io.flutter.plugins.firebase.storage.firebase_storage-rs-12 /home/amit/StudioProjects/swms/build/firebase_storage/generated/res/rs/release
-io.flutter.plugins.firebase.storage.firebase_storage-mergeReleaseResources-13 /home/amit/StudioProjects/swms/build/firebase_storage/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.storage.firebase_storage-mergeReleaseResources-14 /home/amit/StudioProjects/swms/build/firebase_storage/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.storage.firebase_storage-merged_res-15 /home/amit/StudioProjects/swms/build/firebase_storage/intermediates/merged_res/release
+io.flutter.plugins.firebase.storage.firebase_storage-packaged_res-9 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.storage.firebase_storage-pngs-10 /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/generated/res/pngs/release
+io.flutter.plugins.firebase.storage.firebase_storage-resValues-11 /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/generated/res/resValues/release
+io.flutter.plugins.firebase.storage.firebase_storage-rs-12 /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/generated/res/rs/release
+io.flutter.plugins.firebase.storage.firebase_storage-mergeReleaseResources-13 /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.storage.firebase_storage-mergeReleaseResources-14 /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.storage.firebase_storage-merged_res-15 /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/intermediates/merged_res/release
