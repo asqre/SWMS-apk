@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:swms/component/navigator_drawer_widget.dart';
 import 'package:swms/utils/string_constant.dart';
-import '../common_functions/string_validator.dart';
+import '../../common_functions/string_validator.dart';
 
 
 class HomePage extends StatelessWidget {
@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final user = FirebaseAuth.instance.currentUser!;
+    final user = FirebaseAuth.instance.currentUser;
     return Scaffold(
       appBar: AppBar(
         title: Text('Home'),
@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
             padding: const EdgeInsets.only(top: 12.0,bottom: 12,right: 15),
             child: CircleAvatar(
               radius: 20,
-              backgroundImage: NetworkImage(user.photoURL ?? StringConstant.imageUrl),
+              backgroundImage: NetworkImage(user?.photoURL ?? StringConstant.imageUrl),
             ),
           ),
         ],

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../component/navigator_drawer_widget.dart';
+import '../../component/navigator_drawer_widget.dart';
 
 class ViewDataScreen extends StatelessWidget {
   const ViewDataScreen({Key? key}) : super(key: key);

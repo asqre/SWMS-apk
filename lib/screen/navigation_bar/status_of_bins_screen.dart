@@ -3,8 +3,8 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import '../component/navigator_drawer_widget.dart';
-import '../map_build/constants.dart';
+import '../../component/navigator_drawer_widget.dart';
+import '../../map_build/constants.dart';
 import 'dart:ui' as ui;
 
 class StatusBinsScreen extends StatefulWidget {
