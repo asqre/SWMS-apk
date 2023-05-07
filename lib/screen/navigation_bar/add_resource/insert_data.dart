@@ -1,6 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:swms/common_functions/string_validator.dart';
 import 'package:swms/component/form_widget.dart';
 import 'package:swms/utils/dialog.dart';
 
@@ -44,7 +45,9 @@ class InsertData extends StatelessWidget {
                       labelText: 'Dustbin Identity',
                       hintText: 'Enter Id',
                       prefixIcon: Icon(CupertinoIcons.trash),
-                      keyboardType: TextInputType.name),
+                      keyboardType: TextInputType.name,
+                      validator: checkNameEmpty,
+                  ),
                   const SizedBox(
                     height: 30,
                   ),
@@ -55,7 +58,9 @@ class InsertData extends StatelessWidget {
                       labelText: 'Capacity',
                       hintText: 'Enter Capacity',
                       prefixIcon: Icon(Icons.height_rounded),
-                      keyboardType: TextInputType.number),
+                      keyboardType: TextInputType.number,
+                      validator: checkHeightEmpty,
+                  ),
                   const SizedBox(
                     height: 30,
                   ),
@@ -66,7 +71,9 @@ class InsertData extends StatelessWidget {
                       labelText: 'Height',
                       hintText: 'Enter Height',
                       prefixIcon: Icon(Icons.height_rounded),
-                      keyboardType: TextInputType.number),
+                      keyboardType: TextInputType.number,
+                      validator: checkHeightEmpty,
+                  ),
                   SizedBox(
                     height: 30,
                   ),
@@ -77,7 +84,9 @@ class InsertData extends StatelessWidget {
                       labelText: 'Location',
                       hintText: 'Enter Location',
                       prefixIcon: Icon(CupertinoIcons.location),
-                      keyboardType: TextInputType.name),
+                      keyboardType: TextInputType.name,
+                      validator: checkHeightEmpty,
+                  ),
                   const SizedBox(
                     height: 30,
                   ),

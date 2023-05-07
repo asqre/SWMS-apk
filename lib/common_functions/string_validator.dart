@@ -13,6 +13,12 @@ String? checkNameEmpty(String? nameContent) {
   return null;
 }
 
+String? checkHeightEmpty(String? height){
+  if(height == null || height.isEmpty){
+    return "please input required filled";
+  }
+}
+
 String? checkPhoneEmpty(String? phoneContent) {
   if (phoneContent == null || phoneContent.isEmpty) {
     return "enter your 10 digits phone no.";

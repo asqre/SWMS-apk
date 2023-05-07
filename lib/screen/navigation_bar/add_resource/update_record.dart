@@ -1,6 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:swms/common_functions/string_validator.dart';
 import 'package:swms/component/form_widget.dart';
 
 class UpdateRecord extends StatefulWidget {
@@ -15,6 +16,7 @@ class UpdateRecord extends StatefulWidget {
 class _UpdateRecordState extends State<UpdateRecord> {
   final heightController = TextEditingController();
   DatabaseReference? dbRef;
+  final _formKey = GlobalKey<FormState>();
 
   @override
   void initState() {
@@ -44,23 +46,32 @@ class _UpdateRecordState extends State<UpdateRecord> {
               SizedBox(height: 50,),
               const Text('Updating data in Firebase RealTime Database',style:  TextStyle(fontWeight: FontWeight.w500,fontSize: 24),textAlign: TextAlign.center,),
               const SizedBox(height: 30,),
-              TextField(
-                controller: heightController,
-                keyboardType: TextInputType.number,
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(),
-                  labelText: 'Height',
-                  hintText: 'enter height manually',
+              // TextWidget(onSaved: (){}, labelText: 'Height', hintText: 'enter height manually', prefixIcon: Icon(Icons.height), keyboardType: TextInputType.number,validator: checkHeightEmpty,),
+              Form(
+                key: _formKey,
+                child: TextFormField(
+                  controller: heightController,
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Height',
+                    hintText: 'enter height manually',
+                  ),
+                  validator: checkHeightEmpty,
                 ),
               ),
               const SizedBox( height:  30,),
               MaterialButton(
                   onPressed: (){
-                Map<String, String> dustbin = {
-                  'height' : heightController.text,
-                };
-                dbRef!.child(widget.dustbinKey).update(dustbin).then((value) => Navigator.pop(context));
-              },child:  const Text('Updte Data'),
+                if(_formKey.currentState!= null && _formKey.currentState!.validate()){
+                  _formKey.currentState!.save();
+                  Map<String, String> dustbin = {
+                    'height' : heightController.text,
+                  };
+                  dbRef!.child(widget.dustbinKey).update(dustbin).then((value) => Navigator.pop(context));
+                  _formKey.currentState!.reset();
+                }
+              },child:  const Text('Update Data'),
                 color: Colors.blue,
                 textColor: Colors.white,
                 minWidth: 300,
