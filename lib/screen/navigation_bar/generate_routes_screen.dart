@@ -19,7 +19,7 @@ class GenerateRoutesScreen extends StatelessWidget {
         // backgroundColor: Colors.black,
       ),
       // body: OrderTrackPage(),
-      body: PolylineScreen(),
+      body: PolylineScreen2(),
       // OrderTrackPage()
       // Center(
       //   child: Padding(
@@ -57,3 +57,5 @@ class GenerateRoutesScreen extends StatelessWidget {
     );
   }
 }
+
+

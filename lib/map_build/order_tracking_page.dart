@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -76,6 +77,158 @@ class _PolylineScreenState extends State<PolylineScreen> {
       myLocationEnabled: true,
       initialCameraPosition: _kGooglePlex,
       mapType: MapType.normal,
+    );
+  }
+}
+
+
+class PolylineScreen2 extends StatefulWidget {
+  const PolylineScreen2({Key? key}) : super(key: key);
+
+  @override
+  State<PolylineScreen2> createState() => _PolylineScreen2State();
+}
+
+class _PolylineScreen2State extends State<PolylineScreen2> {
+  Completer<GoogleMapController> _controller = Completer();
+  CameraPosition _kGooglePlex = CameraPosition(
+    target: StringConstants.nitjLocation,
+    zoom: 14,
+  );
+  // GoogleMapController? mapController;
+  // PolylinePoints polylinePoints = PolylinePoints();
+
+  List<LatLng> latlng = [
+    LatLng(31.394211, 75.533006),
+    LatLng(31.394694914896295, 75.53370416170874),
+    LatLng(31.395390929737093, 75.53500235084181),
+    LatLng(31.39700273376199, 75.53164422507243),
+    LatLng(31.392240505606097, 75.53606450563787),
+    LatLng(31.393684875399046, 75.53671351078933),
+    LatLng(31.393950280308367, 75.53730118106844),
+    LatLng(31.39500346703969, 75.53748357129705),
+    LatLng(31.39679843627001, 75.5372797234069),
+    LatLng(31.39702738395901, 75.53628194162877),
+    LatLng(31.399298514813694, 75.53579914400896),
+    LatLng(31.39693571569256, 75.53393589450134),
+    LatLng(31.396791304625427, 75.53522697843101),
+  ];
+
+  final Set<Marker> _markers = {};
+  final Set<Polyline> _polyLines = {};
+  // Map<PolylineId, Polyline> polylines = {};
+
+  // LatLng startLocation= LatLng(31.395910, 75.535849);
+  // LatLng endLocation = LatLng(31.394416164080273, 75.53301550459771);
+
+  @override
+  void initState() {
+    // markers.add(Marker(
+    //     markerId: MarkerId(startLocation.toString()),
+    //     position: startLocation,
+    //     infoWindow: InfoWindow(
+    //       title: 'Starting point',
+    //       snippet: 'Start Marker',
+    //     ),
+    //   icon: BitmapDescriptor.defaultMarker,
+    // ),
+    // );
+    // markers.add(Marker(
+    //     markerId: MarkerId(endLocation.toString()),
+    //     position: endLocation,
+    //     infoWindow: InfoWindow(
+    //       title:  'Destination Point',
+    //       snippet: 'Destination Marker',
+    //     ),
+    //   icon: BitmapDescriptor.defaultMarker,
+    //
+    // ),);
+    // getDirections();
+    // TODO: implement initState
+    super.initState();
+    for(int i =0 ;i< latlng.length;i++){
+      _markers.add(
+        Marker(
+            markerId: MarkerId(i.toString()),
+            position: latlng[i],
+            infoWindow: InfoWindow(
+              title: 'Reality cool place',
+              snippet: '5 star Rating',
+            ),
+          icon: BitmapDescriptor.defaultMarker,
+        )
+      );
+      setState(() {
+
+      });
+      _polyLines.add(
+        Polyline(polylineId: PolylineId('1'),
+            points: latlng
+        ),
+      );
+    }
+
+  }
+
+  // getDirections() async{
+  //   List<LatLng> polylineCoordinates = [
+  //     LatLng(31.394211, 75.533006),
+  //     LatLng(31.394694914896295, 75.53370416170874),
+  //     LatLng(31.395390929737093, 75.53500235084181),
+  //     LatLng(31.39700273376199, 75.53164422507243),
+  //     LatLng(31.392240505606097, 75.53606450563787),
+  //     LatLng(31.393684875399046, 75.53671351078933),
+  //     LatLng(31.393950280308367, 75.53730118106844),
+  //     LatLng(31.39500346703969, 75.53748357129705),
+  //     LatLng(31.39679843627001, 75.5372797234069),
+  //     LatLng(31.39702738395901, 75.53628194162877),
+  //     LatLng(31.399298514813694, 75.53579914400896),
+  //     LatLng(31.39693571569256, 75.53393589450134),
+  //     LatLng(31.396791304625427, 75.53522697843101),
+  //   ];
+
+  //   PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
+  //       StringConstants.googleApiKey,
+  //       PointLatLng(startLocation.latitude, startLocation.longitude),
+  //       PointLatLng(endLocation.latitude, endLocation.longitude),
+  //       travelMode: TravelMode.driving,
+  //   );
+  //   if(result.points.isNotEmpty){
+  //     result.points.forEach((PointLatLng point) {
+  //       polylineCoordinates.add(LatLng(point.latitude, point.longitude));
+  //     });
+  //   }else{
+  //     debugPrint(result.errorMessage);
+  //   }
+  //   addPolyLine(polylineCoordinates);
+  // }
+  //
+  // addPolyLine(List<LatLng> polylineCoordinates){
+  //   PolylineId id =PolylineId('poly');
+  //   Polyline polyline = Polyline(
+  //       polylineId: id,
+  //       color: Colors.deepPurpleAccent,
+  //     points: polylineCoordinates,
+  //     width: 4,
+  //   );
+  //   polylines[id] = polyline;
+  //   setState(() {});
+  // }
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return  GoogleMap(
+        initialCameraPosition: _kGooglePlex,
+      markers: _markers,
+      polylines: _polyLines,
+      mapType: MapType.normal,
+      onMapCreated: (controller){
+          _controller.complete(controller);
+      },
+      myLocationEnabled: true,
+
     );
   }
 }

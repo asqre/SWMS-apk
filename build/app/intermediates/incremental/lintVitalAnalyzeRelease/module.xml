@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="/home/amit/StudioProjects/SWMS-apk/android/app"
+    dir="/home/amit/StudioProjects/swms/SWMS-apk/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.2.0"
-    buildFolder="/home/amit/StudioProjects/SWMS-apk/build/app"
+    buildFolder="/home/amit/StudioProjects/swms/SWMS-apk/build/app"
     bootClassPath="/home/amit/Android/Sdk/platforms/android-33/android.jar:/home/amit/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">

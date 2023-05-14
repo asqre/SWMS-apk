@@ -6,9 +6,9 @@ io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-1
 io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-5 /home/amit/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.firebase.core.firebase_core-main-6 /home/amit/.pub-cache/hosted/pub.dev/firebase_core-2.10.0/android/src/main/res
 io.flutter.plugins.firebase.core.firebase_core-release-7 /home/amit/.pub-cache/hosted/pub.dev/firebase_core-2.10.0/android/src/release/res
-io.flutter.plugins.firebase.core.firebase_core-pngs-8 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/generated/res/pngs/release
-io.flutter.plugins.firebase.core.firebase_core-resValues-9 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/generated/res/resValues/release
-io.flutter.plugins.firebase.core.firebase_core-rs-10 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/generated/res/rs/release
-io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/merged_res/release
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/merged_res/release

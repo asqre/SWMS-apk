@@ -6,22 +6,22 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml
+8-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml
+9-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-11-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:3:5-77
-11-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:3:22-74
+11-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:3:5-77
+11-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:3:22-74
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
-13-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+13-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+13-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
-14-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+14-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+14-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.firebase:firebase-auth:21.3.0] /home/amit/.gradle/caches/transforms-3/314bddcf76e7789514d13a7878328ad7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
 15-->[com.google.firebase:firebase-auth:21.3.0] /home/amit/.gradle/caches/transforms-3/314bddcf76e7789514d13a7878328ad7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
@@ -44,29 +44,29 @@
 26
 27    <application
 28        android:name="android.app.Application"
-28-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:8:9-42
+28-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:8:9-42
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.6.0] /home/amit/.gradle/caches/transforms-3/1141b72fb8be4e566e7814849b1aa3a2/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 30        android:icon="@mipmap/launcher_icon"
-30-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:9:9-45
+30-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:9:9-45
 31        android:label="swms" >
-31-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:7:9-29
+31-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:7:9-29
 32        <activity
-32-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:10:9-29:20
+32-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:10:9-29:20
 33            android:name="com.example.swms.MainActivity"
-33-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:11:13-41
+33-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:11:13-41
 34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-34-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:15:13-163
+34-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:15:13-163
 35            android:exported="true"
-35-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:12:13-36
+35-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:12:13-36
 36            android:hardwareAccelerated="true"
-36-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:16:13-47
+36-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:16:13-47
 37            android:launchMode="singleTop"
-37-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:13:13-43
+37-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:13:13-43
 38            android:theme="@style/LaunchTheme"
-38-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:14:13-47
+38-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:14:13-47
 39            android:windowSoftInputMode="adjustResize" >
-39-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:17:13-55
+39-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:17:13-55
 40
 41            <!--
 42                 Specifies an Android theme to apply to this Activity as soon as
@@ -76,14 +76,14 @@
 46            -->
 47
 48            <intent-filter>
-48-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:25:13-28:29
+48-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:25:13-28:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:26:17-68
-49-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:26:25-66
+49-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:26:17-68
+49-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:26:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:27:17-76
-51-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:27:27-74
+51-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:27:17-76
+51-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:27:27-74
 52            </intent-filter>
 53        </activity>
 54        <!--
@@ -91,56 +91,56 @@
 56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 57        -->
 58        <meta-data
-58-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:32:9-34:33
+58-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:32:9-34:33
 59            android:name="flutterEmbedding"
-59-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:33:13-44
+59-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:33:13-44
 60            android:value="2" />
-60-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:34:13-30
+60-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:34:13-30
 61        <meta-data
-61-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:35:9-36:70
+61-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:35:9-36:70
 62            android:name="com.google.android.geo.API_KEY"
-62-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:35:20-65
+62-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:35:20-65
 63            android:value="AIzaSyCHSm31833pIrClREYcQGiWEznbzS8mAcY" />
-63-->/home/amit/StudioProjects/SWMS-apk/android/app/src/main/AndroidManifest.xml:36:13-68
+63-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:36:13-68
 64
 65        <service
-65-->[:firebase_auth] /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+65-->[:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 66            android:name="com.google.firebase.components.ComponentDiscoveryService"
-66-->[:firebase_auth] /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+66-->[:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
 67            android:directBootAware="true"
 67-->[com.google.firebase:firebase-common:20.3.2] /home/amit/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
 68            android:exported="false" >
 68-->[com.google.firebase:firebase-auth:21.3.0] /home/amit/.gradle/caches/transforms-3/314bddcf76e7789514d13a7878328ad7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:68:13-37
 69            <meta-data
-69-->[:firebase_auth] /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+69-->[:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-70-->[:firebase_auth] /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+70-->[:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[:firebase_auth] /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+71-->[:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 72            <meta-data
-72-->[:firebase_database] /home/amit/StudioProjects/SWMS-apk/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+72-->[:firebase_database] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-73-->[:firebase_database] /home/amit/StudioProjects/SWMS-apk/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+73-->[:firebase_database] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
 74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:firebase_database] /home/amit/StudioProjects/SWMS-apk/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+74-->[:firebase_database] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 75            <meta-data
-75-->[:firebase_storage] /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+75-->[:firebase_storage] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-76-->[:firebase_storage] /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+76-->[:firebase_storage] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
 77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:firebase_storage] /home/amit/StudioProjects/SWMS-apk/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+77-->[:firebase_storage] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 78            <meta-data
-78-->[:cloud_firestore] /home/amit/StudioProjects/SWMS-apk/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+78-->[:cloud_firestore] /home/amit/StudioProjects/swms/SWMS-apk/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-79-->[:cloud_firestore] /home/amit/StudioProjects/SWMS-apk/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+79-->[:cloud_firestore] /home/amit/StudioProjects/swms/SWMS-apk/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
 80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[:cloud_firestore] /home/amit/StudioProjects/SWMS-apk/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+80-->[:cloud_firestore] /home/amit/StudioProjects/swms/SWMS-apk/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 81            <meta-data
-81-->[:firebase_core] /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+81-->[:firebase_core] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-82-->[:firebase_core] /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+82-->[:firebase_core] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[:firebase_core] /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+83-->[:firebase_core] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 84            <meta-data
 84-->[com.google.firebase:firebase-auth:21.3.0] /home/amit/.gradle/caches/transforms-3/314bddcf76e7789514d13a7878328ad7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:69:13-71:85
 85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -168,24 +168,24 @@
 96        </service>
 97
 98        <activity
-98-->[:url_launcher_android] /home/amit/StudioProjects/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+98-->[:url_launcher_android] /home/amit/StudioProjects/swms/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
 99            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-99-->[:url_launcher_android] /home/amit/StudioProjects/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+99-->[:url_launcher_android] /home/amit/StudioProjects/swms/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
 100            android:exported="false"
-100-->[:url_launcher_android] /home/amit/StudioProjects/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+100-->[:url_launcher_android] /home/amit/StudioProjects/swms/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
 101            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-101-->[:url_launcher_android] /home/amit/StudioProjects/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+101-->[:url_launcher_android] /home/amit/StudioProjects/swms/SWMS-apk/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
 102
 103        <service
-103-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
+103-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
 104            android:name="com.lyokone.location.FlutterLocationService"
-104-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
+104-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
 105            android:enabled="true"
-105-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
+105-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
 106            android:exported="false"
-106-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+106-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
 107            android:foregroundServiceType="location" />
-107-->[:location] /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
+107-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
 108
 109        <uses-library
 109-->[androidx.window:window:1.0.0-beta04] /home/amit/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40

@@ -7,9 +7,9 @@ io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-ba
 io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-java-1.0.0-beta04-6 /home/amit/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.googlesignin.google_sign_in_android-main-7 /home/amit/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.11/android/src/main/res
 io.flutter.plugins.googlesignin.google_sign_in_android-release-8 /home/amit/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.11/android/src/release/res
-io.flutter.plugins.googlesignin.google_sign_in_android-pngs-9 /home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/generated/res/pngs/release
-io.flutter.plugins.googlesignin.google_sign_in_android-resValues-10 /home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/generated/res/resValues/release
-io.flutter.plugins.googlesignin.google_sign_in_android-rs-11 /home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/generated/res/rs/release
-io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-12 /home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-13 /home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.googlesignin.google_sign_in_android-merged_res-14 /home/amit/StudioProjects/SWMS-apk/build/google_sign_in_android/intermediates/merged_res/release
+io.flutter.plugins.googlesignin.google_sign_in_android-pngs-9 /home/amit/StudioProjects/swms/SWMS-apk/build/google_sign_in_android/generated/res/pngs/release
+io.flutter.plugins.googlesignin.google_sign_in_android-resValues-10 /home/amit/StudioProjects/swms/SWMS-apk/build/google_sign_in_android/generated/res/resValues/release
+io.flutter.plugins.googlesignin.google_sign_in_android-rs-11 /home/amit/StudioProjects/swms/SWMS-apk/build/google_sign_in_android/generated/res/rs/release
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-12 /home/amit/StudioProjects/swms/SWMS-apk/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-13 /home/amit/StudioProjects/swms/SWMS-apk/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-merged_res-14 /home/amit/StudioProjects/swms/SWMS-apk/build/google_sign_in_android/intermediates/merged_res/release

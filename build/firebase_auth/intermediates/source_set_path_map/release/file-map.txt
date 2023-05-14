@@ -8,10 +8,10 @@ io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-6 /home/amit/.gradl
 io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-7 /home/amit/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.firebase.auth.firebase_auth-main-8 /home/amit/.pub-cache/hosted/pub.dev/firebase_auth-4.4.2/android/src/main/res
 io.flutter.plugins.firebase.auth.firebase_auth-release-9 /home/amit/.pub-cache/hosted/pub.dev/firebase_auth-4.4.2/android/src/release/res
-io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/generated/res/pngs/release
-io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/generated/res/resValues/release
-io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/generated/res/rs/release
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /home/amit/StudioProjects/SWMS-apk/build/firebase_auth/intermediates/merged_res/release
-io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /home/amit/StudioProjects/SWMS-apk/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_core/intermediates/packaged_res/release

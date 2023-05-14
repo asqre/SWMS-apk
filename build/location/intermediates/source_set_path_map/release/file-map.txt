@@ -8,9 +8,9 @@ com.lyokone.location-jetified-window-java-1.0.0-beta04-6 /home/amit/.gradle/cach
 com.lyokone.location-jetified-play-services-base-16.0.1-7 /home/amit/.gradle/caches/transforms-3/f303d547f6fd1308186d15c87497b96a/transformed/jetified-play-services-base-16.0.1/res
 com.lyokone.location-main-8 /home/amit/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/main/res
 com.lyokone.location-release-9 /home/amit/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/release/res
-com.lyokone.location-pngs-10 /home/amit/StudioProjects/SWMS-apk/build/location/generated/res/pngs/release
-com.lyokone.location-resValues-11 /home/amit/StudioProjects/SWMS-apk/build/location/generated/res/resValues/release
-com.lyokone.location-rs-12 /home/amit/StudioProjects/SWMS-apk/build/location/generated/res/rs/release
-com.lyokone.location-mergeReleaseResources-13 /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.lyokone.location-mergeReleaseResources-14 /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.lyokone.location-merged_res-15 /home/amit/StudioProjects/SWMS-apk/build/location/intermediates/merged_res/release
+com.lyokone.location-pngs-10 /home/amit/StudioProjects/swms/SWMS-apk/build/location/generated/res/pngs/release
+com.lyokone.location-resValues-11 /home/amit/StudioProjects/swms/SWMS-apk/build/location/generated/res/resValues/release
+com.lyokone.location-rs-12 /home/amit/StudioProjects/swms/SWMS-apk/build/location/generated/res/rs/release
+com.lyokone.location-mergeReleaseResources-13 /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.lyokone.location-mergeReleaseResources-14 /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.lyokone.location-merged_res-15 /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_res/release

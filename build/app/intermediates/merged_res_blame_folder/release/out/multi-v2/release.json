@@ -3747,7 +3747,7 @@
             "outputFile": "com.example.swms.app-merged_res-18:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -3863,7 +3863,7 @@
                     }
                 },
                 {
-                    "source": "/home/amit/StudioProjects/SWMS-apk/build/app/generated/res/google-services/release/values/values.xml",
+                    "source": "/home/amit/StudioProjects/swms/SWMS-apk/build/app/generated/res/google-services/release/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -3880,7 +3880,7 @@
                     }
                 },
                 {
-                    "source": "/home/amit/StudioProjects/SWMS-apk/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
