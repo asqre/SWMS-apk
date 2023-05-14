@@ -9,5 +9,5 @@ class StringConstants{
   static const Color primaryColor = Color(0xFF7B61FF);
   static const double defaultPadding=16.0;
   static const LatLng nitjLocation = LatLng(31.395865416266712, 75.53583316829372);
-  static const String video1API = 'API_KEY';
+  static const String video1API = 'AIzaSyDkxGW6XA0sWHICBvy1WVonxBmi3MqJ5vM';
 }

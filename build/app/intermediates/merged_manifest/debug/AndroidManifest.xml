@@ -14,8 +14,8 @@
     -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
@@ -65,7 +65,7 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCHSm31833pIrClREYcQGiWEznbzS8mAcY" />
+            android:value="AIzaSyDkxGW6XA0sWHICBvy1WVonxBmi3MqJ5vM" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

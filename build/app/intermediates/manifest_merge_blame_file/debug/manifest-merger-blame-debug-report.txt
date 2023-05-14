@@ -18,12 +18,12 @@
 16    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
 16-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:3:5-77
 16-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:3:22-74
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
-17-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
-18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-18-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
-18-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:5:5-78
+17-->/home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+18-->[:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 19-->[com.google.firebase:firebase-auth:21.3.0] /home/amit/.gradle/caches/transforms-3/314bddcf76e7789514d13a7878328ad7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
 19-->[com.google.firebase:firebase-auth:21.3.0] /home/amit/.gradle/caches/transforms-3/314bddcf76e7789514d13a7878328ad7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
@@ -82,7 +82,7 @@
 65            android:value="2" />
 66        <meta-data
 67            android:name="com.google.android.geo.API_KEY"
-68            android:value="AIzaSyCHSm31833pIrClREYcQGiWEznbzS8mAcY" />
+68            android:value="AIzaSyDkxGW6XA0sWHICBvy1WVonxBmi3MqJ5vM" />
 69
 70        <service
 70-->[:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19

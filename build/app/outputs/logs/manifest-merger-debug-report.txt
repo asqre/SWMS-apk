@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:6:5-37:19
+INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:7:5-38:19
 MERGED from [:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_database] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
@@ -62,11 +62,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/amit/
 	android:name
 		INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
-MERGED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
+ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
 MERGED from [:shared_preferences_android] /home/amit/StudioProjects/swms/SWMS-apk/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_auth] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_database] /home/amit/StudioProjects/swms/SWMS-apk/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
@@ -132,11 +132,11 @@ INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/debug/Andr
 		INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
 		INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:1-39:12
 		INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -162,6 +162,12 @@ MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/amit/.gradl
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/amit/.gradle/caches/transforms-3/e0b2331bb61c92c100bbb1be09504fde/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:5:5-78
+MERGED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml:5:22-76
 uses-sdk
 INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/amit/StudioProjects/swms/SWMS-apk/android/app/src/main/AndroidManifest.xml
@@ -358,10 +364,6 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
-	android:name
-		ADDED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
 service#com.lyokone.location.FlutterLocationService
 ADDED from [:location] /home/amit/StudioProjects/swms/SWMS-apk/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
 	android:enabled
