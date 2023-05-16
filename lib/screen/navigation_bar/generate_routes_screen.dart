@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:swms/component/form_widget.dart';
+import 'package:swms/map_build/optimized_map.dart';
 import 'package:swms/map_build/order_tracking_page.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../component/navigator_drawer_widget.dart';
+
+
 
 class GenerateRoutesScreen extends StatelessWidget {
    GenerateRoutesScreen({Key? key}) : super(key: key);
@@ -18,8 +21,9 @@ class GenerateRoutesScreen extends StatelessWidget {
         title: const Text('Routes',style: TextStyle(color: Colors.white),),
         // backgroundColor: Colors.black,
       ),
+      // body: MapView(),
       // body: OrderTrackPage(),
-      body: PolylineScreen2(),
+      body: OrderTrackingPageDemo(),
       // OrderTrackPage()
       // Center(
       //   child: Padding(

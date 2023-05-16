@@ -49,7 +49,7 @@ class RealTimeDatabase extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Container(
-                            width: MediaQuery.of(context).size.width * 0.72,
+                            width: MediaQuery.of(context).size.width * 0.70,
                             height: 120,
                             child:  Card(
                               color: Colors.yellow,
@@ -139,7 +139,7 @@ class Testing extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  width: MediaQuery.of(context).size.width * 0.72,
+                  width: MediaQuery.of(context).size.width * 0.70,
                   height: 120,
                   child:  Card(
                     color: Colors.blue.shade100,

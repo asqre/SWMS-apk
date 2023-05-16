@@ -98,6 +98,7 @@ class _PolylineScreen2State extends State<PolylineScreen2> {
   // GoogleMapController? mapController;
   // PolylinePoints polylinePoints = PolylinePoints();
 
+
   List<LatLng> latlng = [
     LatLng(31.394211, 75.533006),
     LatLng(31.394694914896295, 75.53370416170874),
@@ -214,6 +215,24 @@ class _PolylineScreen2State extends State<PolylineScreen2> {
   //   polylines[id] = polyline;
   //   setState(() {});
   // }
+  List<LatLng> polylineCoordinates =[];
+  late PolylinePoints polylinePoints;
+  _createPolylines(
+      double startLatitude,
+      double startLongitude,
+      double destinationLatitude,
+      double destinationLongitude,
+      )async{
+    polylinePoints = PolylinePoints();
+    PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(StringConstants.googleApiKey, PointLatLng(startLatitude, startLongitude), PointLatLng(destinationLatitude, destinationLongitude),
+    travelMode: TravelMode.transit,
+    );
+    if(result.points.isNotEmpty){
+      result.points.forEach((PointLatLng point) {
+        polylineCoordinates.add(LatLng(point.latitude, point.longitude));
+      });
+    }
+  }
 
 
 
@@ -441,3 +460,5 @@ class _PolylineScreen2State extends State<PolylineScreen2> {
 //     return polylines;
 //   }
 // }
+
+
