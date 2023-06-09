@@ -75,7 +75,6 @@ The SWMS project consists of the following components:
 
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/16b55a21-00ac-48e2-a193-9c83db0212f6)
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/68830357-2171-43c1-b0d1-b84e689b598f)
-![WhatsApp Image 2023-06-10 at 4 32 27 AM](https://github.com/asqre/SWMS-apk/assets/62792214/fe50c8f2-022c-42f5-af65-8407e3e2a1aa)
 
 
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/d31c8031-ae3a-4e62-be8f-df018842dc54)
