@@ -67,11 +67,16 @@ The SWMS project consists of the following components:
 
 3. **SWMS App**: The mobile app allows users to view the dustbins on Google Maps, monitor their status, and receive notifications. It provides an intuitive interface for interacting with the system and accessing real-time data.
 
+## Hardware Interface
+
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/81a82bfe-5cbb-4a9a-873f-5406a2b7af51)
+
+## Application Interface
 
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/16b55a21-00ac-48e2-a193-9c83db0212f6)
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/68830357-2171-43c1-b0d1-b84e689b598f)
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/d31c8031-ae3a-4e62-be8f-df018842dc54)
+
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/223901b7-368a-40d4-9935-addd5495b7d3)
 ![image](https://github.com/asqre/SWMS-apk/assets/62792214/04a1948f-0e9f-47d4-a882-fbf10ed62c60)
 
