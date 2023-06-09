@@ -28,7 +28,7 @@ on your Android device.
 
 - Real-time monitoring of dustbin status and data
 - Integration of Arduino, GSM, and ultrasonic sensors for data collection
-- Optimized collection routes using the shortest path algorithm
+- Optimized collection routes using the shortest path algorithm(https://www.codingninjas.com/codestudio/library/shortest-path-in-a-directed-acyclic-graph)
 - SWMS app for dustbin visualization on Google Maps
 - User-friendly interface for easy navigation and interaction
 - Notification system for alerts and updates on dustbin status
